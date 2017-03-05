@@ -1,9 +1,9 @@
 # TYMagnificationTransition
-
+***
 通过shapeLayer实现的放大效果的控制器转场动画，能够设置放大图形，位置，大小，动画时间
-
+---
 图形
-
+___
 矩形
 圆形
 三角形
