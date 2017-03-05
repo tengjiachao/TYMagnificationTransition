@@ -1,13 +1,14 @@
 # TYMagnificationTransition
 ---
+
 通过shapeLayer实现的放大效果的控制器转场动画，能够设置放大图形，位置，大小，动画时间
 ---
 # 图形
 ---
-矩形
-圆形
-三角形
-五角星（待更新）
+* 矩形
+* 圆形
+* 三角形
+* 五角星（待更新）
 # 位置
 ---
 present与dismiss的位置，通过margin设置
@@ -22,6 +23,7 @@ present与dismiss的位置，通过margin设置
 
 # 用例
 ---
+```oc
 @implementation ViewController
 {
     MagnificationAnimator * _magniAnima;
@@ -41,3 +43,4 @@ present与dismiss的位置，通过margin设置
     }
     return self;
 }
+```
